@@ -1,0 +1,20 @@
+<div class="container">
+    <div class="form-container">
+        <h2 class="form-title">Post New Customer</h2>
+        <form [formGroup]="postCustomerForm">
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required formControlName="name">
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required formControlName="email">
+            </div>
+            <div class="form-group">
+                <label for="phone">Phone:</label>
+                <input type="tel" id="phone" name="phone" required formControlName="phone">
+            </div>
+            <button type="submit" (click)="postCustomer()">Post</button>
+        </form>
+    </div>
+</div>

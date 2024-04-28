@@ -1,0 +1,40 @@
+table {
+    width: 80%;
+    border-collapse: collapse;
+    margin: 20px auto;
+}
+th, td {
+    border: 1px solid  #ccc;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #007bff;
+    color: #fff;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.btn-delete, .btn-update, .btn-new {
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.btn-new {
+    margin-top: 50px;
+}
+
+.btn-delete, .btn-update {
+    margin-right: 5px;
+}
+
+.btn-new:hover {
+    background-color: #0056b3;
+}
